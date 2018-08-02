@@ -4,8 +4,9 @@
 #include "stm32f0xx.h"
 #include <stdio.h>
 
-//lzy_a 自己添加的  GitHub测试
 
+
+//lzy_a 自己删了第六行，添加了第九行，GitHub测试
 void UART_TTL_Init(void);
 void UART_TTL_SendByte(uint8_t byte);
 void UART_TTL_SendString(uint8_t *string, uint8_t len);
