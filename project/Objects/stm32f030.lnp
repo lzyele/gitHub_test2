@@ -1,0 +1,27 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\stm32f0xx_dma.o"
+".\objects\stm32f0xx_exti.o"
+".\objects\stm32f0xx_flash.o"
+".\objects\stm32f0xx_gpio.o"
+".\objects\stm32f0xx_misc.o"
+".\objects\stm32f0xx_rcc.o"
+".\objects\stm32f0xx_spi.o"
+".\objects\stm32f0xx_syscfg.o"
+".\objects\stm32f0xx_tim.o"
+".\objects\stm32f0xx_usart.o"
+".\objects\devcfg.o"
+".\objects\flash.o"
+".\objects\io.o"
+".\objects\nrf24l01.o"
+".\objects\rc522.o"
+".\objects\rf125k.o"
+".\objects\uart.o"
+".\objects\timer.o"
+".\objects\tool.o"
+".\objects\system_stm32f0xx.o"
+".\objects\startup_stm32f030xc.o"
+--library_type=microlib --strict --scatter ".\Objects\stm32f030.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\stm32f030.map" -o .\Objects\stm32f030.axf
